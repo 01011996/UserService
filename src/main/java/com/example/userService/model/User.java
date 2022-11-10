@@ -9,14 +9,10 @@ import java.util.Objects;
 @Entity
 @Table(name="user")
 public class User {
-    @Id
-    @Column(name="userId")
-    int userId;
-
-    @Column(name="userName")
+   
+	@Id    
+    int userId; 
     String userName;
-
-    @Column(name="userRole")
     String userRole;
 
     public int getUserId() {
